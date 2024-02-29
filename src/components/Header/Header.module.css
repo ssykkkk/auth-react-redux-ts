@@ -1,0 +1,20 @@
+header {
+    background-color: rgba(128, 128, 128, 0.5);
+  }
+  .Hcontainer {
+    display: flex;
+    justify-content: end;
+  }
+  header a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    padding: 10px 20px;
+    background-color: rgba(128, 128, 128, 0);
+    transition: .5s;
+    border-radius: 5px;
+  }
+  header a:hover{
+    background-color: rgba(128, 128, 128, 0.5);
+}
